@@ -56,7 +56,7 @@ function calcularPontos(compras) {
     totalPontos += pontos;
   }
 
-  // Aplica o bônus de fidelidade se o total de pontosfor maior que 100
+  // Aplica o bônus de fidelidade se o total de pontos for maior que 100
   if (totalPontos > 100) {
     totalPontos = Math.floor(totalPontos * 1.2);
   }
